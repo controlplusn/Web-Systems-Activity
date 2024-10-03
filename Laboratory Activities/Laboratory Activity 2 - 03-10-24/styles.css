@@ -1,0 +1,162 @@
+* {
+    font-family: "Montserrat", sans-serif;
+}
+
+:root {
+    --black: #2B2A25;
+    --card-color: #F2EADE;
+
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: var(--black);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    min-height: 100vh;
+}
+
+header {
+    top: 0;
+    text-align: center;
+    color: var(--card-color);
+}
+
+section {
+    margin-left: 50px;
+    display: flex;
+    width: 100%;
+    height: calc(100vh - 160px);
+    max-width: 1300px;
+    box-sizing: border-box;
+}
+
+.goals-card {
+    width: 30%;
+    height: 100%;
+    border-radius: 5px;
+    background-image: url(./assets/goalCover.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 30px 30px;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.goals-card h1 {
+    text-align: center;
+    color: var(--card-color);
+}
+
+.goals-card ul li {
+    list-style: none;
+    margin-top: 10px;
+    color: var(--card-color);
+}
+
+.webDev {
+    display: flex;
+    align-items: center;
+}
+
+.goals-card i {
+    margin-right: 10px;
+    font-size: 20px;
+}
+
+section .vision-card {
+    display: flex;
+    margin-left: 20px;
+    width: 100%;
+    height: 50%;
+    gap: 10px;
+}
+
+section .vision-container {
+    display: flex;
+    flex-direction: column;
+    width: 65%;
+}
+
+.card1 {
+    background-image: url(./assets/plane.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 50px 50px;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.card2 {
+    background-image: url(./assets/desk.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 50px 50px;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.card3 {
+    background-image: url(./assets/books.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 50px 50px;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.card4 {
+    background-image: url(./assets/trading.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 50px 50px;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.card5 {
+    background-image: url(./assets/concert.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 50px 50px;
+    border-radius: 5px;
+    width: 100%;
+}
+
+footer {
+    width: 100%;
+    height: 50%;
+    bottom: 0;
+    margin-left: 20px;
+    margin-top: 20px;
+    display: flex;
+    gap: 10px;
+}
+
+.footer-card1 {
+    width: 50%;
+    height: 100%;
+    border-radius: 5px;
+    background-image: url(./assets/nsx.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.footer-card2 {
+    width: 50%;
+    height: 100%;
+    border-radius: 5px;
+    background-image: url(./assets/record.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
