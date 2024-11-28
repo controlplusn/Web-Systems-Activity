@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+
+    <title>About me</title>
+
+    
+</head>
+<body>
+    <div class="card-container">
+        <div class="aboutMe-card" id="aboutMe">
+            <div class="basicInfo-card">
+
+                <div class="image-container">
+                    <img src="./assets/aboutMe.jpg" id="aboutMeImg">
+                    <button id="moreInfo">About me</button>
+                </div>  
+
+                <div class="modal" id="infoModal">
+                    <div class="modal-content">
+                        <h3>Basic Info</h3>
+                        <p>Name: Carle Francis L. Medina</p>
+                        <p>Date of Birth: March 29, 2004</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="contact-card">
+                
+            <div class="image-container">
+                <img src="./assets/contacts.jpg" id="contactImg">
+                <button id="contactInfo">Contact</button>
+            </div>
+
+            <div class="modal" id="contactsModal">
+                <div class="modal-content">
+                    <h3>Contact</h3>
+                    <p>Email: 22-06230@g.batstate-u.edu.ph</p>
+                    <p>GitHub: https://github.com/controlplusn</p>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="personalInfo-card">
+            <div class="image-container">
+                <img src="./assets/personalInfo.jpg" id="personalInfoImg">
+                <button id="personalInfoButton">Personal Info</button>
+            </div>
+            <div class="modal" id="personalInfoModal">
+                <div class="modal-content">
+                    <h3>Personal Info</h3>
+                    <p>Hobbies: Watching animes and kdramas, Coding, Reading</p>
+                    <p>Location: Philippines</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>
